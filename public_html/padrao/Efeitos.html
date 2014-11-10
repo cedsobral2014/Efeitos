@@ -1,51 +1,60 @@
 <html>
 <head>
-    <meta charset="utf-8"/>
-    <title>Efeitos</title>
-	<link href="css/impressao.css" type="text/css" rel="stylesheet" media="print" />
-	<link href="css/grid.css" type="text/css" rel="stylesheet" media="screen" />
-	<link href="css/vtip.css" type="text/css" rel="stylesheet" media="screen" />
-	<link href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet"  media="screen" />
-	<link href="css/smoothness/jquery-ui-1.8.11.custom.css" type="text/css" rel="stylesheet" media="screen" />
-	<link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
-	<link href="css/tema.css" type="text/css" rel="stylesheet" media="screen" />
-    <link href="css/formularios.css" type="text/css" rel="stylesheet" media="screen" />
-	
-	<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>	
-	<script type="text/javascript" src="js/jquery-ui-1.8.12.custom.min.js"></script>
-	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
-	<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
-	<script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
-	<script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
-	<script type="text/javascript" src="js/ufc.js"></script>
-	<script type="text/javascript" src="js/vtip.js"></script>
-	<script type="text/javascript" src="js/fluidtextresizer.js"></script>
-	<script type="text/javascript" src="js/jquery.simpleSlide_min.js"></script>
-	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
-	<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
-    <script type="text/javascript" src="js/jquery.jcarousel.autoscroll.js"></script>
-    <script type="text/javascript" src="flash/jwplayer/jwplayer.html5.js"></script>
-	<script type="text/javascript" src="flash/jwplayer/jwplayer.js"></script>
-    <script src="js/jcanvas.min.js" language="javascript"></script>
-	<script src="js/criarCanvas.js" language="javascript"></script>
-    <script src="js/animarBaloes.js" language="javascript"></script>
-    <script src="js/f1.js" language="javascript"></script>
-	<script type="text/javascript" charset="utf-8">
-		$(document).ready(function(){
-			
-		});
-		var redimensionarFonte = new fluidtextresizer({
-			controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
-			targets: ["p", "li", "h1", "h2", "h3", "tr",".slideshow"], //.generic p, li, .quadro p, h2, h3 - target elements to resize text within: ["selector1", "selector2", etc]
-			levels: 1, //number of levels users can magnify (or shrink) text
-			persist: "none", //enter "session" or "none"
-			animate: 200 //animation duration of text resize. Enter 0 to disable
-		})
-	</script>
-	<style type="text/css" media="screen">
-		
-	</style>
-	<!--[if IE 7]>
+<meta charset="utf-8" />
+<title>Efeitos</title>
+<link href="css/impressao.css" type="text/css" rel="stylesheet"
+	media="print" />
+<link href="css/grid.css" type="text/css" rel="stylesheet"
+	media="screen" />
+<link href="css/vtip.css" type="text/css" rel="stylesheet"
+	media="screen" />
+<link href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css"
+	rel="stylesheet" media="screen" />
+<link href="css/smoothness/jquery-ui-1.8.11.custom.css" type="text/css"
+	rel="stylesheet" media="screen" />
+<link href="css/layout.css" type="text/css" rel="stylesheet"
+	media="screen" />
+<link href="css/tema.css" type="text/css" rel="stylesheet"
+	media="screen" />
+<link href="css/formularios.css" type="text/css" rel="stylesheet"
+	media="screen" />
+
+<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.12.custom.min.js"></script>
+<script type="text/javascript"
+	src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+<script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
+<script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
+<script type="text/javascript" src="js/ufc.js"></script>
+<script type="text/javascript" src="js/vtip.js"></script>
+<script type="text/javascript" src="js/fluidtextresizer.js"></script>
+<script type="text/javascript" src="js/jquery.simpleSlide_min.js"></script>
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.autoscroll.js"></script>
+<script type="text/javascript" src="flash/jwplayer/jwplayer.html5.js"></script>
+<script type="text/javascript" src="flash/jwplayer/jwplayer.js"></script>
+<script src="js/jcanvas.min.js" language="javascript"></script>
+<script src="js/criarCanvas.js" language="javascript"></script>
+<script src="js/animarBaloes.js" language="javascript"></script>
+<script src="js/f1.js" language="javascript"></script>
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function() {
+
+	});
+	var redimensionarFonte = new fluidtextresizer({
+		controlsdiv : "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+		targets : [ "p", "li", "h1", "h2", "h3", "tr", ".slideshow" ], //.generic p, li, .quadro p, h2, h3 - target elements to resize text within: ["selector1", "selector2", etc]
+		levels : 1, //number of levels users can magnify (or shrink) text
+		persist : "none", //enter "session" or "none"
+		animate : 200
+	//animation duration of text resize. Enter 0 to disable
+	})
+</script>
+<style type="text/css" media="screen">
+</style>
+<!--[if IE 7]>
 	<style type="text/css" media="screen">
 		#nav > li > ul > li {
 			margin-left:-15px;
@@ -70,42 +79,54 @@
 	Teste
 	<!-- TEXTO RETRATIL -->
 	<div class="descricao retratil">
-		<h3><a href="#retratil" class="retratil_ativar">Versão Textual </a></h3>
+		<h3>
+			<a href="#retratil" class="retratil_ativar">Versão Textual </a>
+		</h3>
 		<div class="retratil_conteudo">
-	    	<p>Texto.</p>
+			<p>Texto.</p>
 		</div>
 	</div>
-	
-	
+
+
 	<!-- MULTIMIDIA -->
 	<div class="linha">
-		<div class="coluna lateral quadro_imagem">			
-			<img src="layout/quadro-multimidia.png" width="50px" height="50px"  />			
+		<div class="coluna lateral quadro_imagem">
+			<img src="layout/quadro-multimidia.png" width="50px" height="50px" />
 		</div>
 		<div class="coluna principal quadro">
 			<h2>Multimídia</h2>
-			<p>Esta aula disponibiliza do recurso de <strong>Áudio.</strong> Para ter acesso aos áudios da aula clique no botão Player que segue abaixo.</p>
-			<p><strong>Obs.:</strong> Certifique que esteja com a versão mais atualizada de seu navegador.</p>
-            <div class="centralizado">                	
-				<span id="topico01" class="audio-html5">Carregando Áudio...<span class="audio-path">audio/topico1.mp3</span></span>
+			<p>
+				Esta aula disponibiliza do recurso de <strong>Áudio.</strong> Para
+				ter acesso aos áudios da aula clique no botão Player que segue
+				abaixo.
+			</p>
+			<p>
+				<strong>Obs.:</strong> Certifique que esteja com a versão mais
+				atualizada de seu navegador.
+			</p>
+			<div class="centralizado">
+				<span id="topico01" class="audio-html5">Carregando Áudio...<span
+					class="audio-path">audio/topico1.mp3</span></span>
 			</div>
-			<br/>
+			<br />
 		</div>
 	</div>
-	
-	
+
+
 	<!-- OBSERVACAO -->
 	<div class="linha">
 		<div class="coluna lateral quadro_imagem">
-			<img src="layout/quadro-olhando.png" alt="Ícone - Observação" height="50px" width="50px">
+			<img src="layout/quadro-olhando.png" alt="Ícone - Observação"
+				height="50px" width="50px">
 		</div>
 		<div class="coluna principal quadro">
 			<h2>Observação</h2>
-			<p>Neste  curso, serão apresentadas sugestões, portanto, não devem ser consideradas como  regras.&nbsp;&nbsp; </p>
+			<p>Neste curso, serão apresentadas sugestões, portanto, não devem
+				ser consideradas como regras.&nbsp;&nbsp;</p>
 		</div>
 	</div>
-	
-	
+
+
 	<!-- FORUM -->
 	<div class="linha">
 		<div class="coluna lateral quadro_imagem">
@@ -113,102 +134,218 @@
 		</div>
 		<div class="coluna principal quadro">
 			<h2>Fórum</h2>
-			<p>Pela sua experiência, como você concebe a EaD e qual o seu papel nesse processo enquanto professor conteudista?</p>	
-            <p>Discuta com seus colegas no fórum “O que entendo por EaD”.</p>
+			<p>Pela sua experiência, como você concebe a EaD e qual o seu
+				papel nesse processo enquanto professor conteudista?</p>
+			<p>Discuta com seus colegas no fórum “O que entendo por EaD”.</p>
 		</div>
 	</div>
-	
-	
+
+
 	<!-- CITACAO ABNT -->
-	<div class="citacao_abnt">
-        <p>Podemos verificar que nos últimos anos surgiram, de forma nunca vista antes, inclusive nos aspectos quantitativo e qualitativo, grandes mudanças tecnológicas, principalmente no campo da microeletrônica e das telecomunicações, as quais proporcionaram o desenvolvimento em diversas áreas: econômica – inclusive na vasta expansão do capitalismo; industrial – com a gama de processos que passaram a ser automatizados e robotizados; engenharia – possibilitando cada vez mais segurança à construção de máquinas e edificações complexas; telecomunicações – a possibilidade de nos comunicarmos por intermédio de aparelhos celulares; medicina – com a precisão dos resultados dos diagnósticos de doenças antes não detectadas em tempo hábil; aeroespacial – a criação do ônibus espacial, possibilitando levar as pessoas e experimentos à órbita da Terra e seu devido retorno. Todas essas evoluções científicas foram também favorecidas pela informática, que possibilita o embasamento e aprimoramento dos processos de produções e pesquisas. </p>
-	</div>
-	
-	
-	<!-- FOLHA DE CADERNNO -->
-	<div class="folha_caderno">
-        <p>O mundo se transformou em uma grande rede interligada sem fios, que aos poucos vai conectando cada vez mais e por mais tempo pessoas e dispositivos a ela. </p>
-        <p>O conhecimento relativo às possibilidades contidas na esteira da integração das novas tecnologias ao processo educacional parece já ser de domínio público: afinal, não se questiona mais a importância da introdução da informática na educação, mas sim, como efetivá-la.</p>
-	</div>
-	
-	
-	<!-- SLIDER ABAS -->
-	<div class="slide_conteudo">
-		<div class="coda-slider-wrapper">
-			<div id="coda-nav-1" class="coda-nav">
-				<ul>
-					<li class="tab1"><a class="current" href="#1">AULA 01</a></li>
-					<li class="tab2"><a href="#2">AULA 02</a></li>
-					<li class="tab3"><a href="#3">AULA 03</a></li>
-					<li class="tab4"><a href="#4">AULA 04</a></li>
-					<li class="tab5"><a href="#5">AULA 05</a></li>
-				</ul>
+	<div class="linha">
+		<div class="coluna lateral">
+			<br />
+		</div>
+		<div class="coluna principal">
+
+			<div class="citacao_abnt">
+				<p>Podemos verificar que nos últimos anos surgiram, de forma
+					nunca vista antes, inclusive nos aspectos quantitativo e
+					qualitativo, grandes mudanças tecnológicas, principalmente no campo
+					da microeletrônica e das telecomunicações, as quais proporcionaram
+					o desenvolvimento em diversas áreas: econômica – inclusive na vasta
+					expansão do capitalismo; industrial – com a gama de processos que
+					passaram a ser automatizados e robotizados; engenharia –
+					possibilitando cada vez mais segurança à construção de máquinas e
+					edificações complexas; telecomunicações – a possibilidade de nos
+					comunicarmos por intermédio de aparelhos celulares; medicina – com
+					a precisão dos resultados dos diagnósticos de doenças antes não
+					detectadas em tempo hábil; aeroespacial – a criação do ônibus
+					espacial, possibilitando levar as pessoas e experimentos à órbita
+					da Terra e seu devido retorno. Todas essas evoluções científicas
+					foram também favorecidas pela informática, que possibilita o
+					embasamento e aprimoramento dos processos de produções e pesquisas.
+				</p>
 			</div>
-			<div style="height: 66px;" class="coda-slider" id="coda-slider-1">
-				<div style="width: 3100px;" class="panel-container">
-					<div style="display: block;" class="panel">
-						<div class="panel-wrapper">
-							<h2>AULA 01</h2>
-							<p><strong>Planejamento:</strong> Como planejar e organizar as aulas tendo como ferramenta a agenda.</p>
-						</div>
+		</div>
+
+	</div>
+
+
+
+	<!-- FOLHA DE CADERNNO -->
+	<div class="linha">
+		<div class="coluna lateral">
+			<br />
+		</div>
+		<div class="coluna principal">
+			<div class="folha_caderno">
+				<p>O mundo se transformou em uma grande rede interligada sem
+					fios, que aos poucos vai conectando cada vez mais e por mais tempo
+					pessoas e dispositivos a ela.</p>
+				<p>O conhecimento relativo às possibilidades contidas na esteira
+					da integração das novas tecnologias ao processo educacional parece
+					já ser de domínio público: afinal, não se questiona mais a
+					importância da introdução da informática na educação, mas sim, como
+					efetivá-la.</p>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+	<!-- SLIDER ABAS -->
+	<div class="linha">
+		<div class="coluna lateral">
+			<br />
+		</div>
+		<div class="coluna principal">
+			<div class="slide_conteudo">
+				<div class="coda-slider-wrapper">
+					<div id="coda-nav-1" class="coda-nav">
+						<ul>
+							<li class="tab1"><a class="current" href="#1">AULA 01</a></li>
+							<li class="tab2"><a href="#2">AULA 02</a></li>
+							<li class="tab3"><a href="#3">AULA 03</a></li>
+							<li class="tab4"><a href="#4">AULA 04</a></li>
+							<li class="tab5"><a href="#5">AULA 05</a></li>
+						</ul>
 					</div>
-					
-					<div style="display: block;" class="panel">
-						<div class="panel-wrapper">
-							<h2>AULA 02</h2>
-							<p><strong>Identificação da Disciplina e Organização Curricular:</strong> destacar itens essenciais para conhecimento da disciplina, como: ementa, objetivo, carga horária e docentes envolvidos no curso. Apresentar as métricas elaboradas pelo Centro de Produção, a fim de nortear o professor quanto ao número de aulas e tópicos. Relacionar o material  de apoio e bibliografia utilizada, onde será dada ênfase às  obras utilizadas para elaboração das aulas e o material que será  disponibilizado ao aluno.</p>
-						</div>
-					</div>
-					
-					<div style="display: block;" class="panel">
-						<div class="panel-wrapper">
-							<h2>AULA 03</h2>
-							<p><strong>Ferramentas de interação:</strong> serão apresentadas algumas ferramentas utilizadas nas aulas e suas funcionalidades pedagógicas.</p>
-						</div>
-					</div>
-					
-					<div style="display: block;" class="panel">
-						<div class="panel-wrapper">
-							<h2>AULA 04</h2>
-							<p><b>Créditos</b> - esclarecimentos sobre direito autoral , domínio público e normalização ABNT.</p>
-						</div>
-					</div>
-					
-					<div style="display: block;" class="panel">
-						<div class="panel-wrapper">
-							<h2>AULA 05</h2>
-							<p><b>Construção do Material Didático</b> – proposta metodológica para construção do material didático para EaD.</p>
+					<div style="height: 66px;" class="coda-slider" id="coda-slider-1">
+						<div style="width: 3100px;" class="panel-container">
+							<div style="display: block;" class="panel">
+								<div class="panel-wrapper">
+									<h2>AULA 01</h2>
+									<p>
+										<strong>Planejamento:</strong> Como planejar e organizar as
+										aulas tendo como ferramenta a agenda.
+									</p>
+								</div>
+							</div>
+
+							<div style="display: block;" class="panel">
+								<div class="panel-wrapper">
+									<h2>AULA 02</h2>
+									<p>
+										<strong>Identificação da Disciplina e Organização
+											Curricular:</strong> destacar itens essenciais para conhecimento da
+										disciplina, como: ementa, objetivo, carga horária e docentes
+										envolvidos no curso. Apresentar as métricas elaboradas pelo
+										Centro de Produção, a fim de nortear o professor quanto ao
+										número de aulas e tópicos. Relacionar o material de apoio e
+										bibliografia utilizada, onde será dada ênfase às obras
+										utilizadas para elaboração das aulas e o material que será
+										disponibilizado ao aluno.
+									</p>
+								</div>
+							</div>
+
+							<div style="display: block;" class="panel">
+								<div class="panel-wrapper">
+									<h2>AULA 03</h2>
+									<p>
+										<strong>Ferramentas de interação:</strong> serão apresentadas
+										algumas ferramentas utilizadas nas aulas e suas
+										funcionalidades pedagógicas.
+									</p>
+								</div>
+							</div>
+
+							<div style="display: block;" class="panel">
+								<div class="panel-wrapper">
+									<h2>AULA 04</h2>
+									<p>
+										<b>Créditos</b> - esclarecimentos sobre direito autoral ,
+										domínio público e normalização ABNT.
+									</p>
+								</div>
+							</div>
+
+							<div style="display: block;" class="panel">
+								<div class="panel-wrapper">
+									<h2>AULA 05</h2>
+									<p>
+										<b>Construção do Material Didático</b> – proposta metodológica
+										para construção do material didático para EaD.
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+
 	</div>
-	
-	
+
+
+
 	<!-- SLIDER ABAS 2 -->
-	<div class="abas ui-tabs ui-widget ui-widget-content ui-corner-all">
-			<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all"> 
-				<li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="#aba04"><span>Volume de informações</span></a></li> 
-				<li class="ui-state-default ui-corner-top"><a href="#aba05"><span>Público alvo</span></a></li> 
-				<li class="ui-state-default ui-corner-top"><a href="#aba06"><span>Tempo</span></a></li> 
-			</ul>
+	<div class="linha">
+		<div class="coluna lateral">
+			<br />
+		</div>
+		<div class="coluna principal">
+			<div class="abas ui-tabs ui-widget ui-widget-content ui-corner-all">
+				<ul
+					class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+					<li
+						class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a
+						href="#aba04"><span>Volume de informações</span></a></li>
+					<li class="ui-state-default ui-corner-top"><a href="#aba05"><span>Público
+								alvo</span></a></li>
+					<li class="ui-state-default ui-corner-top"><a href="#aba06"><span>Tempo</span></a></li>
+				</ul>
 
-				<div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="aba04">
-                <h3>Volume de informações</h3>
-					<p>Ao selecionar os conteúdos a serem contemplados em sua disciplina, o professor deverá primeiramente consultar a <span class="mouseover" title="ver aula 02 tópico 01">ementa do curso</span>. Desta ementa, deverá ser extraído os conteúdos de forma que atenda os objetivos do curso, assim como os tópicos que complementam a aula sem que sejam muito densos e cansativos.</p>
-				</div> 
-				<div class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide" id="aba05">
-                <h3>Público alvo</h3>
-					<p>Quanto a elaboração dos temas abordados para  as aulas, não deixar de pensar para quem elas estão sendo preparadas, no que o  curso oferece, em que sua disciplina pode contribuir para a construção desse  novo conhecimento ao aluno, a forma de apresentação das aulas considerando  alunos na modalidade a distância. Enfim, preparar a aula de forma que contribua  não só com o conhecimento específico, mas, sobretudo, com a formação integral  do ser, um ser crítico, político e consciente de sua responsabilidade social. </p>
+				<div class="ui-tabs-panel ui-widget-content ui-corner-bottom"
+					id="aba04">
+					<h3>Volume de informações</h3>
+					<p>
+						Ao selecionar os conteúdos a serem contemplados em sua disciplina,
+						o professor deverá primeiramente consultar a <span
+							class="mouseover" title="ver aula 02 tópico 01">ementa do
+							curso</span>. Desta ementa, deverá ser extraído os conteúdos de forma
+						que atenda os objetivos do curso, assim como os tópicos que
+						complementam a aula sem que sejam muito densos e cansativos.
+					</p>
+				</div>
+				<div
+					class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide"
+					id="aba05">
+					<h3>Público alvo</h3>
+					<p>Quanto a elaboração dos temas abordados para as aulas, não
+						deixar de pensar para quem elas estão sendo preparadas, no que o
+						curso oferece, em que sua disciplina pode contribuir para a
+						construção desse novo conhecimento ao aluno, a forma de
+						apresentação das aulas considerando alunos na modalidade a
+						distância. Enfim, preparar a aula de forma que contribua não só
+						com o conhecimento específico, mas, sobretudo, com a formação
+						integral do ser, um ser crítico, político e consciente de sua
+						responsabilidade social.</p>
 
-			  </div> 
-				<div class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide" id="aba06">
-                <h3>Tempo</h3>
-					<p>Considerar a <span class="mouseover" title="ver aula 02 tópico 01">carga horária</span> como tempo determinante das aulas. Consultar as <a href="imagens/02/metricas_elaboracao_aulas.pdf" target="_blank">métricas</a> sugeridas pelo Centro de Produção da UFC, para nortear quanto ao número de aulas e número de tópicos, a serem distribuídos no período de tempo estabelecido pela coordenação de curso (início e termino do curso).<br>
-       </p>
-				                  
+				</div>
+				<div
+					class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide"
+					id="aba06">
+					<h3>Tempo</h3>
+					<p>
+						Considerar a <span class="mouseover" title="ver aula 02 tópico 01">carga
+							horária</span> como tempo determinante das aulas. Consultar as <a
+							href="imagens/02/metricas_elaboracao_aulas.pdf" target="_blank">métricas</a>
+						sugeridas pelo Centro de Produção da UFC, para nortear quanto ao
+						número de aulas e número de tópicos, a serem distribuídos no
+						período de tempo estabelecido pela coordenação de curso (início e
+						termino do curso).<br>
+					</p>
+
 				</div>
 			</div>
+		</div>
+
+	</div>
+
 </body>
 </html>
